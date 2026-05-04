@@ -10,8 +10,8 @@ function Home() {
           <p>
               I design and build AI-powered applications using <span>Machine Learning</span>,
               <span>Deep Learning</span>, and <span>Transformer models (T5)</span>. I have
-              developed projects like a Text Summarizer and deployed models using.
-              <span>FastAPI</span>
+              developed projects like a Text Summarizer and deployed models using
+              <span>FastAPI.</span>
           </p>
 
           <div className="hero-buttons">
