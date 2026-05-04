@@ -133,56 +133,129 @@ body {
   max-width: 850px;
 }
 
-/* About Page */
+/* Advanced About Page */
 .about-page {
   min-height: 80vh;
-  background-color: #f1f5f9;
   padding: 80px 10%;
+  background: linear-gradient(135deg, #f8fafc, #e0f2fe);
 }
 
-.about-container {
+.about-hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 60px;
 }
 
-.about-content {
-  max-width: 600px;
+.about-img-box img {
+  width: 320px;
+  height: 320px;
+  border-radius: 30px;
+  object-fit: cover;
+  border: 5px solid #38bdf8;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.25);
 }
 
-.about-content h1 {
-  font-size: 42px;
+.about-text {
+  max-width: 650px;
+}
+
+.section-label {
+  color: #38bdf8;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about-text h1 {
+  font-size: 44px;
   color: #0f172a;
+  margin: 12px 0 20px;
 }
 
-.about-content p {
+.about-text p {
   font-size: 18px;
+  line-height: 1.8;
   color: #475569;
-  line-height: 1.7;
-  margin-top: 10px;
-}
-
-.about-info {
-  margin-top: 25px;
-}
-
-.about-info div {
   margin-bottom: 15px;
 }
 
-.about-info h3 {
-  color: #38bdf8;
+.about-stats {
+  display: flex;
+  gap: 18px;
+  margin-top: 25px;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .about-container {
+.about-stats div {
+  background: white;
+  padding: 18px 24px;
+  border-radius: 16px;
+  min-width: 120px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.about-stats h3 {
+  color: #38bdf8;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.about-stats p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.about-cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-card {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.16);
+}
+
+.about-card h3 {
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.about-card p {
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* About Responsive */
+@media (max-width: 900px) {
+  .about-hero {
     flex-direction: column;
     text-align: center;
   }
 
-  .about-content {
-    max-width: 100%;
+  .about-stats {
+    justify-content: center;
+  }
+
+  .about-img-box img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .about-text h1 {
+    font-size: 34px;
   }
 }
 
