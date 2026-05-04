@@ -684,3 +684,103 @@ body {
   background-color: #0f172a;
   color: white;
 }
+
+/* FINAL MOBILE FIX */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar mobile fix */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    padding: 16px 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 14px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  /* About page mobile fix */
+  .about-page {
+    width: 100%;
+    padding: 35px 18px;
+  }
+
+  .about-hero {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .about-img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img-box img {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .about-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-text h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-stats div {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .about-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  .about-card {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+}
