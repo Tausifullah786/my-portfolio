@@ -10,7 +10,7 @@ function About() {
 
         <div className="about-text">
           <span className="section-label">About Me</span>
-          <h1>AI & Machine Learning Enthusiast</h1>
+          <h1>AI & Machine Learning Engineer</h1>
 
           <p>
             I am a Computer Science student passionate about building intelligent
@@ -23,20 +23,6 @@ function About() {
             FastAPI-based deployment, and deep learning model development.
           </p>
 
-          <div className="about-stats">
-            <div>
-              <h3>ML</h3>
-              <p>Model Training</p>
-            </div>
-            <div>
-              <h3>DL</h3>
-              <p>Neural Networks</p>
-            </div>
-            <div>
-              <h3>API</h3>
-              <p>FastAPI</p>
-            </div>
-          </div>
         </div>
       </div>
 
