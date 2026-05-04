@@ -9,7 +9,7 @@ function Home() {
           <h3>AI & Machine Learning Engineer</h3>
           <p>
               I design and build AI-powered applications using <span>Machine Learning</span>,
-              <span>Deep Learning</span>, and <span>Transformer models (T5)</span>. I have
+              <span>Deep Learning</span>, and <span>Transformer models </span>. I have
               developed projects like a Text Summarizer and deployed models using
               <span>FastAPI.</span>
           </p>
